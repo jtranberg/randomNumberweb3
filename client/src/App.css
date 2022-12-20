@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: rgb(62, 38, 196);
+}
+
+.header {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header button {
+  background-color: blue;
+  border: none;
+  padding: 1rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+}
+
+.header button:hover {
+  background-color: transparent;
+  color: blue;
+  outline: 2px solid blue;
+  cursor: pointer;
+}
